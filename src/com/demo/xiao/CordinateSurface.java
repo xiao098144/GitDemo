@@ -25,7 +25,7 @@ import android.view.SurfaceView;
  * 
  */
 public class CordinateSurface extends SurfaceView implements Callback {
-
+    
 	private SurfaceHolder holder = null;
 	private MyDrawThread drawThread = null;
 	private int width;
